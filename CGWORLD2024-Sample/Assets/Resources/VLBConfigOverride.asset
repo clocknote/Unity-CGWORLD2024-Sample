@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed3f3d91454db34f894abc9ea1d8ec4, type: 3}
+  m_Name: VLBConfigOverride
+  m_EditorClassIdentifier: 
+  geometryOverrideLayer: 1
+  geometryLayerID: 1
+  geometryTag: Untagged
+  geometryRenderQueue: 3000
+  geometryRenderQueueHD: 3100
+  m_RenderPipeline: 1
+  m_RenderingMode: 1
+  ditheringFactor: 0
+  useLightColorTemperature: 1
+  sharedMeshSides: 24
+  sharedMeshSegments: 5
+  hdBeamsCameraBlendingDistance: 0.5
+  urpDepthCameraScriptableRendererIndex: -1
+  globalNoiseScale: 0.5
+  globalNoiseVelocity: {x: 0.07, y: 0.18, z: 0.05}
+  fadeOutCameraTag: MainCamera
+  noiseTexture3D: {fileID: 11700000, guid: e4c4c1cbfaa63db45b17891f8f2caf6d, type: 2}
+  dustParticlesPrefab: {fileID: 19822582, guid: 472bc216b0f362147943a3cedc36711f, type: 3}
+  ditheringNoiseTexture: {fileID: 2800000, guid: 52f46dcaae8132a4090a9a8d14ece711, type: 3}
+  jitteringNoiseTexture: {fileID: 2800000, guid: 7c156dffca1e1ef4c916c6237a9d5f16, type: 3}
+  featureEnabledColorGradient: 1
+  featureEnabledDepthBlend: 1
+  featureEnabledNoise3D: 1
+  featureEnabledDynamicOcclusion: 1
+  featureEnabledMeshSkewing: 1
+  featureEnabledShaderAccuracyHigh: 1
+  featureEnabledShadow: 1
+  featureEnabledCookie: 1
+  m_RaymarchingQualities:
+  - name: Fast
+    stepCount: 5
+    _UniqueID: 1
+  - name: Balanced
+    stepCount: 10
+    _UniqueID: 2
+  - name: High
+    stepCount: 20
+    _UniqueID: 3
+  m_DefaultRaymarchingQualityUniqueID: 2
+  pluginVersion: 20201
+  _DummyMaterial: {fileID: 2100000, guid: 0b52d36e22549884f889907d0e8e0503, type: 2}
+  _DummyMaterialHD: {fileID: 2100000, guid: a1643a6ffd02d5049934877429f49b58, type: 2}
+  _BeamShader: {fileID: 4800000, guid: d43a929eb72fe6547923a20cd1df9c8e, type: 3}
+  _BeamShaderHD: {fileID: 4800000, guid: f902f56fcc5ca9b499bdfc56304db59b, type: 3}

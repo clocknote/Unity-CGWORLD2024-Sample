@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "com.hecomi.uosc": "https://github.com/hecomi/uOSC.git#upm",
     "com.unity.ai.navigation": "2.0.0",
+    "com.unity.cinemachine": "3.0.1",
     "com.unity.collab-proxy": "2.5.2",
     "com.unity.ide.rider": "3.0.28",
     "com.unity.ide.visualstudio": "2.0.22",
@@ -10,6 +12,9 @@
     "com.unity.timeline": "1.8.6",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.4",
+    "jp.iridescent.camera_live_production": "https://github.com/murasaqi/Unity_CameraLiveProduction.git?path=/jp.iridescent.cameraliveproduction#v0.1.0",
+    "jp.iridescent.stagelightmaneuver": "https://github.com/murasaqi/Unity_StageLightManeuver.git?path=/jp.iridescenet.stagelightmaneuver#v1.0.2",
+    "jp.iridescent.timemachine": "https://github.com/murasaqi/Unity_TimeMachine.git?path=/jp.iridescent.timemachine#v1.0.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",

@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.hecomi.uosc": {
+      "version": "https://github.com/hecomi/uOSC.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "3788ab28702c44330bfea7323b2e05bc4d23c213"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.0",
       "depth": 0,
@@ -16,6 +23,16 @@
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "3.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.splines": "2.0.0",
+        "com.unity.test-framework": "1.1.33"
       },
       "url": "https://packages.unity.com"
     },
@@ -136,6 +153,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.settings-manager": {
+      "version": "2.0.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.shadergraph": {
       "version": "17.0.3",
       "depth": 1,
@@ -144,6 +168,17 @@
         "com.unity.render-pipelines.core": "17.0.3",
         "com.unity.searcher": "4.9.2"
       }
+    },
+    "com.unity.splines": {
+      "version": "2.6.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.4.4",
@@ -196,6 +231,27 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "jp.iridescent.camera_live_production": {
+      "version": "https://github.com/murasaqi/Unity_CameraLiveProduction.git?path=/jp.iridescent.cameraliveproduction#v0.1.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0c162d21e15a536ddcef6a14a4e93f29c028c00b"
+    },
+    "jp.iridescent.stagelightmaneuver": {
+      "version": "https://github.com/murasaqi/Unity_StageLightManeuver.git?path=/jp.iridescenet.stagelightmaneuver#v1.0.2",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "10313e680a350c3cdfe721aaf3611975d4e0f416"
+    },
+    "jp.iridescent.timemachine": {
+      "version": "https://github.com/murasaqi/Unity_TimeMachine.git?path=/jp.iridescent.timemachine#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "e5038cd44a1851e2683657134ffa80af2d8a7b1a"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
